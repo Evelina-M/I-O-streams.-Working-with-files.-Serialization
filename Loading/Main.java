@@ -3,16 +3,17 @@ package Loading;
 import java.io.*;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
+import Conservation.GameProgress;
 
 public class Main {
     public static void main(String[] args) {
         // Распаковка архива
-        openZip("D:\\DataBase education\\Курсы\\Нетология\\Потоки ввода-вывода. Работа с файлами. Сериализация\\Установка\\Games\\savegames\\zip.zip",
+        openZip("C:\\Users\\Эвелина\\IdeaProjects\\Input-OutputStreamsWorkingWithFilesSerialization_Installation\\src\\Installation\\Game\\savegames\\zip.zip",
 
-                "D:\\DataBase education\\Курсы\\Нетология\\Потоки ввода-вывода. Работа с файлами. Сериализация\\Установка\\Games\\savegames");
+                "C:\\Users\\Эвелина\\IdeaProjects\\Input-OutputStreamsWorkingWithFilesSerialization_Installation\\src\\Installation\\Game\\savegames");
 
         // Десериализация файла сохранения и вывод в консоль
-        GameProgress gameProgress = openProgress("D:\\DataBase education\\Курсы\\Нетология\\Потоки ввода-вывода. Работа с файлами. Сериализация\\Установка\\Games\\savegames\\zip.zip\\save2.dat");
+        GameProgress gameProgress = openProgress("C:\\Users\\Эвелина\\IdeaProjects\\Input-OutputStreamsWorkingWithFilesSerialization_Installation\\src\\Installation\\Game\\savegames\\save2.dat");
         System.out.println(gameProgress);
     }
 
