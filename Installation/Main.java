@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        String gamesDirectoryPath = "D:\\DataBase education\\Курсы\\Нетология\\Потоки ввода-вывода. Работа с файлами. Сериализация\\Установка\\Games";
+        String gamesDirectoryPath = "C:\\Users\\Эвелина\\IdeaProjects\\Input-OutputStreamsWorkingWithFilesSerialization_Installation\\src\\Conservation\\Game";
         StringBuilder logBuilder = new StringBuilder();
 
         File gamesDirectory = new File(gamesDirectoryPath);
