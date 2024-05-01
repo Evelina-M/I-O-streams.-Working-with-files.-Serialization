@@ -12,16 +12,16 @@ public class Main {
         GameProgress gameProgress2 = new GameProgress(80, 10, 3, 10.2);
         GameProgress gameProgress3 = new GameProgress(60, 15, 5, 25.7);
 
-        saveGame("D:\\DataBase education\\Курсы\\Нетология\\Потоки ввода-вывода. Работа с файлами. Сериализация\\Установка\\Games\\savegames\\save1.dat", gameProgress1);
-        saveGame("D:\\DataBase education\\Курсы\\Нетология\\Потоки ввода-вывода. Работа с файлами. Сериализация\\Установка\\Games\\savegames\\save2.dat", gameProgress2);
-        saveGame("D:\\DataBase education\\Курсы\\Нетология\\Потоки ввода-вывода. Работа с файлами. Сериализация\\Установка\\Games\\savegames\\save3.dat", gameProgress3);
+        saveGame("C:\\Users\\Эвелина\\IdeaProjects\\Input-OutputStreamsWorkingWithFilesSerialization_Installation\\src\\Installation\\Game\\savegames\\save1.dat", gameProgress1);
+        saveGame("C:\\Users\\Эвелина\\IdeaProjects\\Input-OutputStreamsWorkingWithFilesSerialization_Installation\\src\\Installation\\Game\\savegames\\save2.dat", gameProgress2);
+        saveGame("C:\\Users\\Эвелина\\IdeaProjects\\Input-OutputStreamsWorkingWithFilesSerialization_Installation\\src\\Installation\\Game\\savegames\\save3.dat", gameProgress3);
 
         List<String> pathToFile = new ArrayList<>();
-        pathToFile.add("D:\\DataBase education\\Курсы\\Нетология\\Потоки ввода-вывода. Работа с файлами. Сериализация\\Установка\\Games\\savegames\\save1.dat");
-        pathToFile.add("D:\\DataBase education\\Курсы\\Нетология\\Потоки ввода-вывода. Работа с файлами. Сериализация\\Установка\\Games\\savegames\\save2.dat");
-        pathToFile.add("D:\\DataBase education\\Курсы\\Нетология\\Потоки ввода-вывода. Работа с файлами. Сериализация\\Установка\\Games\\savegames\\save3.dat");
+        pathToFile.add("C:\\Users\\Эвелина\\IdeaProjects\\Input-OutputStreamsWorkingWithFilesSerialization_Installation\\src\\Installation\\Game\\savegames\\save1.dat");
+        pathToFile.add("C:\\Users\\Эвелина\\IdeaProjects\\Input-OutputStreamsWorkingWithFilesSerialization_Installation\\src\\Installation\\Game\\savegames\\save2.dat");
+        pathToFile.add("C:\\Users\\Эвелина\\IdeaProjects\\Input-OutputStreamsWorkingWithFilesSerialization_Installation\\src\\Installation\\Game\\savegames\\save3.dat");
 
-        zipFiles("D:\\DataBase education\\Курсы\\Нетология\\Потоки ввода-вывода. Работа с файлами. Сериализация\\Установка\\Games\\savegames\\zip.zip", pathToFile);
+        zipFiles("C:\\Users\\Эвелина\\IdeaProjects\\Input-OutputStreamsWorkingWithFilesSerialization_Installation\\src\\Installation\\Game\\savegames\\zip.zip", pathToFile);
 
         deleteFiles(pathToFile);
     }
